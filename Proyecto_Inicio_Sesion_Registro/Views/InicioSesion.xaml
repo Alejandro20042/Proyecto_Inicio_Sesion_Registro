@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Inicio_Sesion_Registro.Views.InicioSesion"
+             BackgroundColor="#272727" >
+
+
+    <StackLayout BackgroundColor="#272727" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Image Source="camara3.png" Margin="0,0,0,0"/>
+        <StackLayout VerticalOptions="Center">
+
+            <Label Text="Inicio de Sesion" TextColor="White" FontSize="30" />
+            <Label Text="Hola! Que gusto de verte de nuevo." TextColor="White" FontSize="15"/>
+
+            <Label Text="Correo Electrónico" TextColor="#40cfff"/>
+            <Entry Placeholder="Ingresa tu correo" TextColor="White" PlaceholderColor="Gray"/>
+
+            <Label Text="Contraseña" TextColor="#40cfff"/>
+            <Entry Placeholder="Ingresa tu contraseña" TextColor="White" PlaceholderColor="Gray"/>
+
+            <StackLayout Orientation="Horizontal" Margin="0,0,0,0">
+                <CheckBox Color="#40cfff"/>
+                <Label Text="Recordar" TextColor="White" Margin="0,5,0,0"/>
+            </StackLayout>
+            
+            
+
+        </StackLayout>
+
+        <Button Text="Iniciar Sesión" BackgroundColor="#2823bc" TextColor="White" CornerRadius="30"/>
+
+        <Label Text="Olvidates tu contraseña?" TextColor="White" Grid.Column="0" Margin="0,0,0,0"/>
+        <Button Text="Registrate" TextColor="White" Grid.Column="1" Margin="0,0,0,0" Background="transparent" TextTransform="None" Command="{Binding ProcesoNavegarCommand}"  />
+
+    </StackLayout>
+
+
+
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Inicio_Sesion_Registro.Views.Registro"
+              BackgroundColor="#272727">
+    
+   
+    <StackLayout BackgroundColor="#272727" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Image Source="camara3.png"/>
+        <StackLayout VerticalOptions="Center">
+            
+            <Label Text="Registro" TextColor="White" FontSize="25" />
+            <Label Text="¡Crea una cuenta nueva!" TextColor="White"/>
+
+            <Label Text="Correo Electrónico" TextColor="#40cfff"/>
+            <Entry Placeholder="Ingresa tu correo" TextColor="White" PlaceholderColor="Gray"/>
+
+            <Label Text="Contraseña" TextColor="#40cfff"/>
+            <Entry Placeholder="Ingresa tu contraseña" TextColor="White" PlaceholderColor="Gray"/>
+            <Label Text="Confirmar Contraseña" TextColor="#40cfff"/>
+            <Entry Placeholder="Confirmar contraseña" PlaceholderColor="Gray" TextColor="White"/>
+
+            <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
+                <CheckBox Color="#40cfff"/>
+                <Label Text="Acepto los términos y la privacidad" TextColor="White" Margin="0,5,0,0"/>
+            </StackLayout>
+
+        </StackLayout>
+
+        <Button Text="Iniciar Sesión" BackgroundColor="#2823bc" TextColor="White" CornerRadius="30"/>
+
+        
+    </StackLayout>
+
+
+</ContentPage>
