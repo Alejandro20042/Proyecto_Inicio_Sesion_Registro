@@ -24,4 +24,3 @@ namespace Proyecto_Inicio_Sesion_Registro.ViewModel
         public ICommand ProcesoNavegarCommand => new Command(async () => await Navegar());
     }
 }
-//PushAsync is not supported globally on Android, please use a NavigationPage.'

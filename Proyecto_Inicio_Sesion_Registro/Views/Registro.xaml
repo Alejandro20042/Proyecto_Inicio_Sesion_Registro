@@ -13,12 +13,13 @@
             <Label Text="¡Crea una cuenta nueva!" TextColor="White"/>
 
             <Label Text="Correo Electrónico" TextColor="#40cfff"/>
-            <Entry Placeholder="Ingresa tu correo" TextColor="White" PlaceholderColor="Gray"/>
+                <Entry Placeholder="Ingresa tu correo" TextColor="White" PlaceholderColor="Gray"/>
 
             <Label Text="Contraseña" TextColor="#40cfff"/>
-            <Entry Placeholder="Ingresa tu contraseña" TextColor="White" PlaceholderColor="Gray"/>
+                <Entry Placeholder="Ingresa tu contraseña" TextColor="White" PlaceholderColor="Gray"/>
+            
             <Label Text="Confirmar Contraseña" TextColor="#40cfff"/>
-            <Entry Placeholder="Confirmar contraseña" PlaceholderColor="Gray" TextColor="White"/>
+                <Entry Placeholder="Confirmar contraseña" PlaceholderColor="Gray" TextColor="White"/>
 
             <StackLayout Orientation="Horizontal" Margin="0,15,0,0">
                 <CheckBox Color="#40cfff"/>
